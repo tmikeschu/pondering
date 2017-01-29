@@ -4,6 +4,8 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+gem 'react-rails', github: 'reactjs/react-rails'
+gem 'sprockets-coffee-react'
 
 gem "haml-rails", "~> 0.9"
 
