@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
+gem "sprockets", '3.6.3'
 
 gem "haml-rails", "~> 0.9"
 
